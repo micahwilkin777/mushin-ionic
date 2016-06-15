@@ -1,0 +1,49 @@
+.tmpl-menu {
+    background: #3A2958;
+    color: #FFF;
+
+    > * {
+        color: #FFF;
+    }
+
+    .header {
+
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #FFF;
+    }
+    .profile {
+        .list {
+            > a {
+                background: transparent;
+                border: none;
+                > * {
+                    color: #FFF;
+                }
+                h2 {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .user-menu {
+        margin: 40px 0;
+        .list {
+            a {
+                background: transparent;
+                border: none;
+                border-top: 1px solid #333;
+                &:last-of-type {
+                    border-bottom: 1px solid #333;
+                }
+
+                > * {
+                    color: #FFF;
+                }
+                h2 {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

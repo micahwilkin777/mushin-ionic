@@ -1,0 +1,17 @@
+.tmpl-search {
+    .search-results {
+    }
+}
+
+.tmpl-search-details {
+    text-align: center;
+    background: #3A2958;
+    color: #FFF;
+
+    .item-details {
+        margin-top: 10px;
+        button {
+            margin-top: 20px;
+        }
+    }
+}
